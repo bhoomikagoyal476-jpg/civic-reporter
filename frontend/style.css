@@ -1,0 +1,101 @@
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #111;
+}
+
+/* ===== MAIN LAYOUT ===== */
+.app {
+  text-align: center;
+  padding: 30px;
+}
+
+/* ===== GRID (2 COLUMN LAYOUT) ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ===== CARD DESIGN ===== */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== INPUTS ===== */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* ===== RESULT TEXT ===== */
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* ===== LEADERBOARD ===== */
+#leaderboard {
+  margin-top: 10px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 5px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* TOP 3 STYLING */
+.top1 {
+  background: gold;
+}
+
+.top2 {
+  background: silver;
+}
+
+.top3 {
+  background: #cd7f32;
+  color: white;
+}
+
+/* ===== ISSUE LIST ===== */
+#issues {
+  margin-top: 10px;
+}

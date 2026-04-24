@@ -1,0 +1,44 @@
+<body>
+
+<div class="app">
+
+  <h1>🚀 Civic Reporter</h1>
+
+  <div class="grid">
+
+    <!-- CREATE ISSUE -->
+    <div class="card">
+      <h3>Create Issue</h3>
+      <input id="title" placeholder="Issue Title">
+      <input id="location" placeholder="Location">
+      <button onclick="createIssue()">Submit</button>
+    </div>
+
+    <!-- VERIFY -->
+    <div class="card">
+      <h3>Verify Issue</h3>
+      <input id="issueId" placeholder="Issue ID">
+      <button onclick="verify()">Verify</button>
+    </div>
+
+    <!-- LEADERBOARD -->
+    <div class="card">
+      <h3>🏆 Leaderboard</h3>
+      <button onclick="loadLeaderboard()">Show Top Users</button>
+      <ul id="leaderboard"></ul>
+    </div>
+
+    <!-- EXTRA (ISSUE LIST / FUTURE MAP) -->
+    <div class="card">
+      <h3>📍 Issues</h3>
+      <button onclick="loadIssues()">Load Issues</button>
+      <div id="issues"></div>
+    </div>
+
+  </div>
+
+  <div id="result"></div>
+
+</div>
+
+</body>
